@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Restaurant</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="./styles/normalize.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="./styles/hamburgers.min.css">
+	<link rel="stylesheet" href="./styles/style.css">
+	<link rel="stylesheet" href="./styles/media.css">
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="header__container container">
+			<a href="#" class="header__logo-1"><img src="./img/logo.png" alt="logo"></a>
+			<a href="#" class="header__logo-2"><img src="./img/logo2.png" alt="logo"></a>
+			<nav class="header__nav nav">
+				<ul class="header__list list">
+					<li class="header__list-item">
+						<a href="#" class="nav__link">À la carte</a>
+					</li>
+					<li class="header__list-item">
+						<a href="#" class="nav__link">Wijnkaart</a>
+					</li>
+					<li class="header__list-item">
+						<a href="#" class="nav__link">Lunchmenu</a>
+					</li>
+					<li class="header__list-item">
+						<a href="#" class="nav__link">Contact</a>
+					</li>
+				</ul>
+			</nav>
+			<a href="tel:+3292825725" class="header__tel" data-da=".header__nav,576,last">+32 9 282 57 25</a>
+
+			<button class="hamburger hamburger--3dxy" type="button">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+		</div>
+	</header>
+
+
+	<main class="main">
+
+		<section class="hero">
+			<div class="hero__container container">
+				<span class="hero__schedule">
+					OPEN EVERYDAY 6AM - 9PM
+				</span>
+				<h1 class="hero__title">A&nbsp;bad day with lunch is&nbsp;better than a&nbsp;good day without&nbsp;it.</h1>
+				<div class="hero__bottom bottom">
+					<div class="bottom__left">
+						<button class="hero__btn btn btn-reset" onclick="location.href='#modal';">Reserve a table</button>
+					</div>
+					<div class="bottom__right">
+						<ul class="hero__list" data-da=".header__nav,576,last">
+							<li class="hero__list-item">
+								<a href="#" class="social">Fb</a>
+							</li>
+							<li class="hero__list-item">
+								<a href="#" class="social">Ig</a>
+							</li>
+							<li class="hero__list-item">
+								<a href="#" class="social">Tw</a>
+							</li>
+							<li class="hero__list-item">
+								<a href="#" class="social">Yt</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="main__bg-img"></div>
+			</div>
+		</section>
+
+		<section class="menu">
+			<div class="menu__container container">
+				<div class="menu__left">
+					<ul class="menu__list">
+						<li class="menu__item">
+							<div class="menu__block">
+								<h3 class="menu__title">Woensdag 12/01</h3>
+								<p class="menu__desc">
+									Salade met Serrano<span class="menu__dots"></span>Steak Tartaar
+								</p>
+							</div>
+						</li>
+						<li class="menu__item">
+							<div class="menu__block">
+								<h3 class="menu__title">Donderdag 13/01</h3>
+								<p class="menu__desc">
+									Toast Roquefort<span class="menu__dots"></span>Penne met Kip en Prei
+								</p>
+							</div>
+						</li>
+						<li class="menu__item">
+							<div class="menu__block">
+								<h3 class="menu__title">Vrijdag 14/01</h3>
+								<p class="menu__desc">
+									Verrassing van de Chef<span class="menu__dots"></span>Penne met Kip en Prei
+								</p>
+							</div>
+						</li>
+						<li class="menu__item">
+							<div class="menu__block">
+								<h3 class="menu__title">Vrijdag 15/01</h3>
+								<p class="menu__desc">
+									Verrassing van de Chef<span class="menu__dots"></span>Penne met Kip en Prei
+								</p>
+							</div>
+						</li>
+						<li class="menu__item">
+							<div class="menu__block">
+								<h3 class="menu__title">Vrijdag 16/01</h3>
+								<p class="menu__desc">
+									Verrassing van de Chef<span class="menu__dots"></span>Penne met Kip en Prei
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="menu__right">
+					<div class="menu__rect"></div>
+				</div>
+			</div>
+		</section>
+
+		<section class="quotations">
+			<div class="container quotations__container">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="./img/commas.svg" alt="commas">
+							<h2 class="swiper__title">Goede service, lekker eten, toffe ambiance</h2>
+							<p class="swiper__desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut&nbsp;labore et&nbsp;dolore magna aliquyam erat, sed diam voluptua. At&nbsp;vero eos et&nbsp;accusam et&nbsp;justo duo dolores et&nbsp;ea&nbsp;rebum. Stet clita kasd gubergren.</p>
+							<span class="swiper__author">ALAIN HEYNDRICKX</span>
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/commas.svg" alt="commas">
+							<h2 class="swiper__title">Goede service, lekker eten, toffe ambiance</h2>
+							<p class="swiper__desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut&nbsp;labore et&nbsp;dolore magna aliquyam erat, sed diam voluptua. At&nbsp;vero eos et&nbsp;accusam et&nbsp;justo duo dolores et&nbsp;ea&nbsp;rebum. Stet clita kasd gubergren.</p>
+							<span class="swiper__author">ALAIN HEYNDRICKX</span>
+						</div>
+						<div class="swiper-slide">
+							<img src="./img/commas.svg" alt="commas">
+							<h2 class="swiper__title">Goede service, lekker eten, toffe ambiance</h2>
+							<p class="swiper__desc">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut&nbsp;labore et&nbsp;dolore magna aliquyam erat, sed diam voluptua. At&nbsp;vero eos et&nbsp;accusam et&nbsp;justo duo dolores et&nbsp;ea&nbsp;rebum. Stet clita kasd gubergren.</p>
+							<span class="swiper__author">ALAIN HEYNDRICKX</span>
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+		</section>
+
+
+		<div class="modal" id="modal" aria-hidden="true">
+			<div class="modal__dialog" role="dialog" aria-modal="true">
+				<a role="button" href="#close" class="modal__close-btn btn-reset"></a>
+				<div class="modal__content">
+					<h2 class="modal__title">Whant to reserve a table?</h2>
+
+					<form action="https://reqres.in/api/users" method="POST" class="modal__form" id="modal__form" autocomplete="off">
+						<label class="modal__label" for="name">Name</label>
+						<input class="modal__input" type="text" name="name" id="name" placeholder="Input your name" autocomplete="off">
+						<label class="modal__label" for="email">Email</label>
+						<input class="modal__input" type="email" name="email" id="email" placeholder="Input your email" autocomplete="off">
+						<label class="modal__label" for="request">Special request</label>
+						<textarea class="modal__input" name="request" id="request"></textarea>
+						<button class="modal__form-btn btn btn-reset" type="submit">Send</button>
+						<div class="result">
+
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script src="./libs/dynamicAdapt.js"></script>
+	<script src="./js/form.js"></script>
+	<script type="module" src="./js/index.js"></script>
+</body>
+
+</html>
